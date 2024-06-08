@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio website</title>
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header design -->
+    <header class="header">
+      <a href="#" class="logo"> Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home section Design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Tanmay Kulkarni</h1>
+        <h3>And I'm a <span> Frontend Developer</span></h3>
+        <!-- <span>| Python Developer</span>  -->
+        <p>
+          Hello! I'm Tanmay Kulkarni, a front-end developer with some project of
+          experience in creating seamless digital experiences. I specialize in
+          HTML, CSS, JavaScript, and modern frameworks like Angular. My goal is
+          to bring your ideas to life with clean, efficient, and scalable code.
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/login.php"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="/home pic.png" alt="" />
+        <!-- <img src="/drive-download-20240603T170655Z-001/s2.jpg" alt="" style=" border-radius: 50%;"> -->
+      </div>
+    </section>
+
+    <!-- About section Design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <!-- <img src="/drive-download-20240603T170655Z-001/aboutpic.png" alt=""> -->
+        <!-- <img src="/drive-download-20240603T170655Z-001/s2.jpg" alt=""> -->
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Skills</h3>
+          <div class="skill-container">
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Angular</li>
+              <li>Bootstrap</li>
+            </ul>
+            <!-- <ul class="skills-list">
+              <li>Python</li>
+              <li>Django</li>
+              <li>SQL</li>
+            </ul> -->
+        </div>
+          <div class="skill-container">
+            <!-- <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Angular</li>
+              <li>Bootstrap</li>
+            </ul> -->
+            <ul class="skills-list">
+              <li>Python</li>
+              <li>Django</li>
+              <li>SQL</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <!-- Projects section Design-->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <!-- Image search engine -->
+        <div class="project-box">
+          <i class="fa-solid fa-image"></i>
+          <h3>Image Search Engine</h3>
+          <p>
+            The Image Search Engine is an advanced platform designed to provide users with the ability to search for images across the web efficiently and accurately. Utilizing state-of-the-art technology, this engine allows users to find images using keywords, phrases, and even other images.
+          </p>
+          <a href="https://tanmay1413.github.io/Image_Search_Engine/" class="btn">Read More</a>
+        </div>
+        <!-- Currency Converter -->
+        <div class="project-box">
+          <i class="fa-solid fa-coins"></i>
+          <h3>Currency Converter</h3>
+          <p>
+            We make a simple Currency Converter using HTML, CSS and JavaScript with the help of exchangerate-api.com to obtain the real-time conversion rates.
+          </p>
+          <a href="https://tanmay1413.github.io/currency_converter/" class="btn">Read More</a>
+        </div>
+        <!-- Job search -->
+        <div class="project-box">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <h3>Job Search</h3>
+          <p>
+            The Job Search Engine is a comprehensive platform designed to help job seekers find the perfect career opportunities and employers connect with the right talent. 
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Weather api -->
+        <div class="project-box">
+          <i class="fa-solid fa-sun"></i>
+          <h3>Weather Api</h3>
+          <p>
+            It acts as an intermediary, enabling software applications to access real-time, forecasted, and historical weather information. These APIs pull data from numerous meteorological stations, satellites, radars, and other weather data sources, providing comprehensive weather details in a structured and easily accessible format.
+          </p>
+          <a href="https://tanmay1413.github.io/weather_api/" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section Design-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Massage"
+        ></textarea>
+        <input type="submit" value="Send Massage" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer section Design-->
+    <div class="footer-section">
+      <section class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2024 by @tanmaykulkarni | All Rights Reseved.</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <!--Main js  -->
+    <script src="main.js"></script>
+  </body>
+</html>
